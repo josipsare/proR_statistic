@@ -50,37 +50,37 @@ icc_results <- icc(llama.coherence, model = "twoway",
 print(icc_results)
 
 
-cat("\n-----------------------------------MISTRAL_1-----------------------------------\n")
-cat("\n-----OVERALL QUALITY-----\n")
-llamma.overall_quality <- read.csv("java/pror/kappa_mistral_1/reviewer_scores_overall_quality.csv")
-icc_results<- icc(llamma.overall_quality, model = "twoway",
-    type = "agreement", 
-    unit = "single")
-print(icc_results)
-cat("\n-----RELEVANCE-----\n")
-llama.relavence <- read.csv("java/pror/kappa_mistral_1/reviewer_scores_relevance.csv")
-icc_results <- icc(llama.relavence, model = "twoway",
-    type = "agreement", 
-    unit = "single")
-print(icc_results)
-cat("\n-----FLUENCY-----\n")
-llama.fluency <- read.csv("java/pror/kappa_mistral_1/reviewer_scores_fluency.csv")
-icc_results <- icc(llama.fluency, model = "twoway",
-    type = "agreement", 
-    unit = "single")
-print(icc_results)
-cat("\n-----CONTEXT UNDERSTANDING-----\n")
-llama.context_understanding <- read.csv("java/pror/kappa_mistral_1/reviewer_scores_context_understanding.csv")
-icc_results <- icc(llama.context_understanding, model = "twoway",
-    type = "agreement", 
-    unit = "single")
-print(icc_results)
-cat("\n-----COHERENCE-----\n")
-llama.coherence <- read.csv("java/pror/kappa_mistral_1/reviewer_scores_coherence.csv")
-icc_results <- icc(llama.coherence, model = "twoway",
-    type = "agreement", 
-    unit = "single")
-print(icc_results)
+#cat("\n-----------------------------------MISTRAL_1-----------------------------------\n")
+#cat("\n-----OVERALL QUALITY-----\n")
+#llamma.overall_quality <- read.csv("java/pror/kappa_mistral_1/reviewer_scores_overall_quality.csv")
+#icc_results<- icc(llamma.overall_quality, model = "twoway",
+#    type = "agreement",
+#    unit = "single")
+#print(icc_results)
+#cat("\n-----RELEVANCE-----\n")
+#llama.relavence <- read.csv("java/pror/kappa_mistral_1/reviewer_scores_relevance.csv")
+#icc_results <- icc(llama.relavence, model = "twoway",
+#    type = "agreement",
+#    unit = "single")
+#print(icc_results)
+#cat("\n-----FLUENCY-----\n")
+#llama.fluency <- read.csv("java/pror/kappa_mistral_1/reviewer_scores_fluency.csv")
+#icc_results <- icc(llama.fluency, model = "twoway",
+#    type = "agreement",
+#    unit = "single")
+#print(icc_results)
+#cat("\n-----CONTEXT UNDERSTANDING-----\n")
+#llama.context_understanding <- read.csv("java/pror/kappa_mistral_1/reviewer_scores_context_understanding.#csv")
+#icc_results <- icc(llama.context_understanding, model = "twoway",
+#    type = "agreement",
+#    unit = "single")
+#print(icc_results)
+#cat("\n-----COHERENCE-----\n")
+#llama.coherence <- read.csv("java/pror/kappa_mistral_1/reviewer_scores_coherence.csv")
+#icc_results <- icc(llama.coherence, model = "twoway",
+#    type = "agreement",
+#    unit = "single")
+#print(icc_results)
 
 
 cat("\n-----------------------------------MISTRAL_2-----------------------------------\n")

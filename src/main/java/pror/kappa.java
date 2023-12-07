@@ -14,12 +14,12 @@ public class kappa {
 
     public static void main(String[] args) throws IOException, ParseException {
         llama();
-        mistral_1();
+        //mistral_1();
         mistral_2();
         zephyr_1();
         zephyr_2();
     }
-    public static void writeRow(CSVWriter writer, int rev1, int rev2, int rev3) {
+    public static void writeRow(CSVWriter writer, double rev1, double rev2, double rev3) {
         String[] row = new String[3];
         row[0] = String.valueOf(rev1);
         row[1] = String.valueOf(rev2);
@@ -28,7 +28,7 @@ public class kappa {
     }
 
     public static void llama() throws IOException, ParseException {
-        List<Integer> values=new ArrayList<>();
+        List<Double> values=new ArrayList<>();
         JSONParser parser = new JSONParser();
         Object obj = parser.parse(new FileReader("src/main/java/pror/answers/llama-2-7b-chat.Q5_K_M.gguf.json"));
         JSONArray jsonArray = (JSONArray) obj;
@@ -66,35 +66,35 @@ public class kappa {
 
 
             for(Object value: overall_quality.values()){
-                values.add(Math.toIntExact((Long) value));
+                values.add(Double.parseDouble(value.toString()));
             }
             writeRow(writer_overall_quality,values.get(0),values.get(1),values.get(2));
             values.clear();
 
 
             for(Object value: coherence.values()){
-                values.add(Math.toIntExact((Long) value));
+                values.add(Double.parseDouble(value.toString()));
             }
             writeRow(writer_coherence,values.get(0),values.get(1),values.get(2));
             values.clear();
 
 
             for(Object value: fluency.values()){
-                values.add(Math.toIntExact((Long) value));
+                values.add(Double.parseDouble(value.toString()));
             }
             writeRow(writer_fluency,values.get(0),values.get(1),values.get(2));
             values.clear();
 
 
             for(Object value: relevance.values()){
-                values.add(Math.toIntExact((Long) value));
+                values.add(Double.parseDouble(value.toString()));
             }
             writeRow(writer_relevance,values.get(0),values.get(1),values.get(2));
             values.clear();
 
 
             for(Object value: context_understanding.values()){
-                values.add(Math.toIntExact((Long) value));
+                values.add(Double.parseDouble(value.toString()));
             }
             writeRow(writer_context_understanding,values.get(0),values.get(1),values.get(2));
             values.clear();
@@ -117,7 +117,7 @@ public class kappa {
     }
 
     public static void mistral_1() throws IOException, ParseException {
-        List<Integer> values=new ArrayList<>();
+        List<Double> values=new ArrayList<>();
         JSONParser parser = new JSONParser();
         Object obj = parser.parse(new FileReader("src/main/java/pror/answers/mistral-7b-instruct-v0.1.Q5_K_M.gguf.json"));
         JSONArray jsonArray = (JSONArray) obj;
@@ -156,35 +156,35 @@ public class kappa {
 
 
             for(Object value: overall_quality.values()){
-                values.add(Math.toIntExact((Long) value));
+                values.add(Double.parseDouble(value.toString()));
             }
             writeRow(writer_overall_quality,values.get(0),values.get(1),values.get(2));
 values.clear();
 
 
             for(Object value: coherence.values()){
-                values.add(Math.toIntExact((Long) value));
+                values.add(Double.parseDouble(value.toString()));
             }
             writeRow(writer_coherence,values.get(0),values.get(1),values.get(2));
 values.clear();
 
 
             for(Object value: fluency.values()){
-                values.add(Math.toIntExact((Long) value));
+                values.add(Double.parseDouble(value.toString()));
             }
             writeRow(writer_fluency,values.get(0),values.get(1),values.get(2));
 values.clear();
 
 
             for(Object value: relevance.values()){
-                values.add(Math.toIntExact((Long) value));
+                values.add(Double.parseDouble(value.toString()));
             }
             writeRow(writer_relevance,values.get(0),values.get(1),values.get(2));
 values.clear();
 
 
             for(Object value: context_understanding.values()){
-                values.add(Math.toIntExact((Long) value));
+                values.add(Double.parseDouble(value.toString()));
             }
             writeRow(writer_context_understanding,values.get(0),values.get(1),values.get(2));
 values.clear();
@@ -208,7 +208,7 @@ values.clear();
     }
 
     public static void mistral_2() throws IOException, ParseException {
-        List<Integer> values=new ArrayList<>();
+        List<Double> values=new ArrayList<>();
         JSONParser parser = new JSONParser();
         Object obj = parser.parse(new FileReader("src/main/java/pror/answers/mistral-7b-openorca.Q4_0.gguf.json"));
         JSONArray jsonArray = (JSONArray) obj;
@@ -246,35 +246,35 @@ values.clear();
 
 
             for(Object value: overall_quality.values()){
-                values.add(Math.toIntExact((Long) value));
+                values.add(Double.parseDouble(value.toString()));
             }
             writeRow(writer_overall_quality,values.get(0),values.get(1),values.get(2));
             values.clear();
 
 
             for(Object value: coherence.values()){
-                values.add(Math.toIntExact((Long) value));
+                values.add(Double.parseDouble(value.toString()));
             }
             writeRow(writer_coherence,values.get(0),values.get(1),values.get(2));
             values.clear();
 
 
             for(Object value: fluency.values()){
-                values.add(Math.toIntExact((Long) value));
+                values.add(Double.parseDouble(value.toString()));
             }
             writeRow(writer_fluency,values.get(0),values.get(1),values.get(2));
             values.clear();
 
 
             for(Object value: relevance.values()){
-                values.add(Math.toIntExact((Long) value));
+                values.add(Double.parseDouble(value.toString()));
             }
             writeRow(writer_relevance,values.get(0),values.get(1),values.get(2));
             values.clear();
 
 
             for(Object value: context_understanding.values()){
-                values.add(Math.toIntExact((Long) value));
+                values.add(Double.parseDouble(value.toString()));
             }
             writeRow(writer_context_understanding,values.get(0),values.get(1),values.get(2));
             values.clear();
@@ -298,7 +298,7 @@ values.clear();
     }
 
     public static void zephyr_1() throws IOException, ParseException {
-        List<Integer> values=new ArrayList<>();
+        List<Double> values=new ArrayList<>();
         JSONParser parser = new JSONParser();
         Object obj = parser.parse(new FileReader("src/main/java/pror/answers/zephyr-7b-alpha.Q5_K_M.gguf.json"));
         JSONArray jsonArray = (JSONArray) obj;
@@ -336,35 +336,35 @@ values.clear();
 
 
             for(Object value: overall_quality.values()){
-                values.add(Math.toIntExact((Long) value));
+                values.add(Double.parseDouble(value.toString()));
             }
             writeRow(writer_overall_quality,values.get(0),values.get(1),values.get(2));
             values.clear();
 
 
             for(Object value: coherence.values()){
-                values.add(Math.toIntExact((Long) value));
+                values.add(Double.parseDouble(value.toString()));
             }
             writeRow(writer_coherence,values.get(0),values.get(1),values.get(2));
             values.clear();
 
 
             for(Object value: fluency.values()){
-                values.add(Math.toIntExact((Long) value));
+                values.add(Double.parseDouble(value.toString()));
             }
             writeRow(writer_fluency,values.get(0),values.get(1),values.get(2));
             values.clear();
 
 
             for(Object value: relevance.values()){
-                values.add(Math.toIntExact((Long) value));
+                values.add(Double.parseDouble(value.toString()));
             }
             writeRow(writer_relevance,values.get(0),values.get(1),values.get(2));
             values.clear();
 
 
             for(Object value: context_understanding.values()){
-                values.add(Math.toIntExact((Long) value));
+                values.add(Double.parseDouble(value.toString()));
             }
             writeRow(writer_context_understanding,values.get(0),values.get(1),values.get(2));
             values.clear();
@@ -387,7 +387,7 @@ values.clear();
     }
 
     public static void zephyr_2() throws IOException, ParseException {
-        List<Integer> values=new ArrayList<>();
+        List<Double> values=new ArrayList<>();
         JSONParser parser = new JSONParser();
         Object obj = parser.parse(new FileReader("src/main/java/pror/answers/zephyr-7b-beta.Q5_K_M.gguf.json"));
         JSONArray jsonArray = (JSONArray) obj;
@@ -425,35 +425,35 @@ values.clear();
 
 
             for(Object value: overall_quality.values()){
-                values.add(Math.toIntExact((Long) value));
+                values.add(Double.parseDouble(value.toString()));
             }
             writeRow(writer_overall_quality,values.get(0),values.get(1),values.get(2));
             values.clear();
 
 
             for(Object value: coherence.values()){
-                values.add(Math.toIntExact((Long) value));
+                values.add(Double.parseDouble(value.toString()));
             }
             writeRow(writer_coherence,values.get(0),values.get(1),values.get(2));
             values.clear();
 
 
             for(Object value: fluency.values()){
-                values.add(Math.toIntExact((Long) value));
+                values.add(Double.parseDouble(value.toString()));
             }
             writeRow(writer_fluency,values.get(0),values.get(1),values.get(2));
             values.clear();
 
 
             for(Object value: relevance.values()){
-                values.add(Math.toIntExact((Long) value));
+                values.add(Double.parseDouble(value.toString()));
             }
             writeRow(writer_relevance,values.get(0),values.get(1),values.get(2));
             values.clear();
 
 
             for(Object value: context_understanding.values()){
-                values.add(Math.toIntExact((Long) value));
+                values.add(Double.parseDouble(value.toString()));
             }
             writeRow(writer_context_understanding,values.get(0),values.get(1),values.get(2));
             values.clear();
