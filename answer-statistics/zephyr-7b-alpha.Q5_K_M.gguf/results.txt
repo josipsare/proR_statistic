@@ -1,0 +1,29 @@
+zephyr-7b-alpha.Q5_K_M.gguf
+
+-----------------------------------
+
+Srednja vrijednost duljine odgovora: 307.5,
+Standardna devijacija duljine odgovora: 252.6942429791043
+
+Srednja vrijednost broja rijeci: 50.66304347826087, 
+Standardna devijacija broja rijeci: 42.41776626703798
+
+Srednja vrijednost trajanja: 35.53967391304349, 
+Standardna devijacija trajanja: 13.33852140061022
+
+-----------------------------------
+
+Kolmogorov-Smirnovljev Test p-vrijednosti:
+Duljine odgovora: 0.0
+Broja rijeci: 0.0
+Trajanja: 0.0
+
+Shapiro-Wilk Test p-vrijednosti:
+Duljine odgovora: 2.4542614607270252e-09
+Broja rijeci: 3.127898606791746e-09
+Trajanja: 0.00018462134175933897
+
+-----------------------------------
+
+Pearsonov koeficjent koleracije za duljinu odgovora i trajanje: 0.7078707671675497
+P-vrijednost koleracije: 3.0229247148601647e-15

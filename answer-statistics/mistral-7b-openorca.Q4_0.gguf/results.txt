@@ -1,0 +1,29 @@
+mistral-7b-openorca.Q4_0.gguf
+
+-----------------------------------
+
+Srednja vrijednost duljine odgovora: 241.7608695652174,
+Standardna devijacija duljine odgovora: 214.84849917847663
+
+Srednja vrijednost broja rijeci: 39.858695652173914, 
+Standardna devijacija broja rijeci: 35.86404931238643
+
+Srednja vrijednost trajanja: 30.669347826086952, 
+Standardna devijacija trajanja: 11.213839159944463
+
+-----------------------------------
+
+Kolmogorov-Smirnovljev Test p-vrijednosti:
+Duljine odgovora: 4.2909146870210113e-181
+Broja rijeci: 3.6854703439026037e-137
+Trajanja: 0.0
+
+Shapiro-Wilk Test p-vrijednosti:
+Duljine odgovora: 3.6643970080518784e-09
+Broja rijeci: 3.9301912835298936e-09
+Trajanja: 9.028270869748667e-05
+
+-----------------------------------
+
+Pearsonov koeficjent koleracije za duljinu odgovora i trajanje: 0.6990712897544522
+P-vrijednost koleracije: 9.218648527039431e-15
