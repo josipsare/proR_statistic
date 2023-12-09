@@ -20,198 +20,195 @@ library(BlandAltmanLeh)
 cat("\n-----------------------------------LLAMA-----------------------------------\n")
 cat("\n-----OVERALL QUALITY-----\n")
 llamma.overall_quality <- read.csv("java/pror/kappa_llama/reviewer_scores_overall_quality.csv")
-icc_results<- icc(llamma.overall_quality, model = "twoway",
+icc_results_overall_quality<- icc(llamma.overall_quality, model = "twoway",
     type = "agreement", 
     unit = "single")
-print(icc_results)
+print(icc_results_overall_quality)
 cat("\n-----RELEVANCE-----\n")
 llama.relavence <- read.csv("java/pror/kappa_llama/reviewer_scores_relevance.csv")
-icc_results <- icc(llama.relavence, model = "twoway",
+icc_results_relevance <- icc(llama.relavence, model = "twoway",
     type = "agreement", 
     unit = "single")
-print(icc_results)
+print(icc_results_relevance)
 cat("\n-----FLUENCY-----\n")
 llama.fluency <- read.csv("java/pror/kappa_llama/reviewer_scores_fluency.csv")
-icc_results <- icc(llama.fluency, model = "twoway",
+icc_results_fluency <- icc(llama.fluency, model = "twoway",
     type = "agreement", 
     unit = "single")
-print(icc_results)
+print(icc_results_fluency)
 cat("\n-----CONTEXT UNDERSTANDING-----\n")
 llama.context_understanding <- read.csv("java/pror/kappa_llama/reviewer_scores_context_understanding.csv")
-icc_results <- icc(llama.context_understanding, model = "twoway",
+icc_results_context_undetstanding <- icc(llama.context_understanding, model = "twoway",
     type = "agreement", 
     unit = "single")
-print(icc_results)
+print(icc_results_context_undetstanding)
 cat("\n-----COHERENCE-----\n")
 llama.coherence <- read.csv("java/pror/kappa_llama/reviewer_scores_coherence.csv")
-icc_results <- icc(llama.coherence, model = "twoway",
+icc_results_coherence <- icc(llama.coherence, model = "twoway",
     type = "agreement", 
     unit = "single")
-print(icc_results)
+print(icc_results_coherence)
+
+llama.kappa <- c(icc_results_overall_quality$value,icc_results_relevance$value,icc_results_fluency$value,icc_results_context_undetstanding$value,icc_results_coherence$value)
+names(llama.kappa) <- c("overall quality","relevance","fluency","context understanding","coherence")
+llama.kappa
+plot(llama.kappa,xaxt = "n",xlab = ""); axis(1,1:5,labels = names(llama.kappa))
 
 
-#cat("\n-----------------------------------MISTRAL_1-----------------------------------\n")
-#cat("\n-----OVERALL QUALITY-----\n")
-#llamma.overall_quality <- read.csv("java/pror/kappa_mistral_1/reviewer_scores_overall_quality.csv")
-#icc_results<- icc(llamma.overall_quality, model = "twoway",
-#    type = "agreement",
-#    unit = "single")
-#print(icc_results)
-#cat("\n-----RELEVANCE-----\n")
-#llama.relavence <- read.csv("java/pror/kappa_mistral_1/reviewer_scores_relevance.csv")
-#icc_results <- icc(llama.relavence, model = "twoway",
-#    type = "agreement",
-#    unit = "single")
-#print(icc_results)
-#cat("\n-----FLUENCY-----\n")
-#llama.fluency <- read.csv("java/pror/kappa_mistral_1/reviewer_scores_fluency.csv")
-#icc_results <- icc(llama.fluency, model = "twoway",
-#    type = "agreement",
-#    unit = "single")
-#print(icc_results)
-#cat("\n-----CONTEXT UNDERSTANDING-----\n")
-#llama.context_understanding <- read.csv("java/pror/kappa_mistral_1/reviewer_scores_context_understanding.#csv")
-#icc_results <- icc(llama.context_understanding, model = "twoway",
-#    type = "agreement",
-#    unit = "single")
-#print(icc_results)
-#cat("\n-----COHERENCE-----\n")
-#llama.coherence <- read.csv("java/pror/kappa_mistral_1/reviewer_scores_coherence.csv")
-#icc_results <- icc(llama.coherence, model = "twoway",
-#    type = "agreement",
-#    unit = "single")
-#print(icc_results)
+cat("\n-----------------------------------MISTRAL_1-----------------------------------\n")
+cat("\n-----OVERALL QUALITY-----\n")
+mistral1.overall_quality <- read.csv("java/pror/kappa_mistral_1/reviewer_scores_overall_quality.csv")
+icc_results_overall_quality<- icc(mistral1.overall_quality, model = "twoway",
+    type = "agreement",
+    unit = "single")
+print(icc_results_overall_quality)
+cat("\n-----RELEVANCE-----\n")
+mistral1.relavence <- read.csv("java/pror/kappa_mistral_1/reviewer_scores_relevance.csv")
+icc_results_relevance <- icc(mistral1.relavence, model = "twoway",
+    type = "agreement",
+    unit = "single")
+print(icc_results_relevance)
+cat("\n-----FLUENCY-----\n")
+mistral1.fluency <- read.csv("java/pror/kappa_mistral_1/reviewer_scores_fluency.csv")
+icc_results_fluency <- icc(mistral1.fluency, model = "twoway",
+    type = "agreement",
+    unit = "single")
+print(icc_results_fluency)
+cat("\n-----CONTEXT UNDERSTANDING-----\n")
+mistral1.context_understanding <- read.csv("java/pror/kappa_mistral_1/reviewer_scores_context_understanding.csv")
+icc_results <- icc(mistral1.context_understanding, model = "twoway",
+    type = "agreement",
+    unit = "single")
+print(icc_results_context_undetstanding)
+cat("\n-----COHERENCE-----\n")
+mistral1.coherence <- read.csv("java/pror/kappa_mistral_1/reviewer_scores_coherence.csv")
+icc_results_coherence <- icc(mistral1.coherence, model = "twoway",
+    type = "agreement",
+    unit = "single")
+print(icc_results_coherence)
+
+mistral1.kappa <- c(icc_results_overall_quality$value,icc_results_relevance$value,icc_results_fluency$value,icc_results_context_undetstanding$value,icc_results_coherence$value)
+names(mistral1.kappa) <- c("overall quality","relevance","fluency","context understanding","coherence")
+plot(mistral1.kappa,xaxt = "n",xlab=""); axis(1,1:5,labels = names(mistral1.kappa))
 
 
 cat("\n-----------------------------------MISTRAL_2-----------------------------------\n")
 cat("\n-----OVERALL QUALITY-----\n")
-llamma.overall_quality <- read.csv("java/pror/kappa_mistral_2/reviewer_scores_overall_quality.csv")
-icc_results<- icc(llamma.overall_quality, model = "twoway",
+mistral2.overall_quality <- read.csv("java/pror/kappa_mistral_2/reviewer_scores_overall_quality.csv")
+icc_results_overall_quality<- icc(mistral2.overall_quality, model = "twoway",
     type = "agreement", 
     unit = "single")
-print(icc_results)
+print(icc_results_overall_quality)
 cat("\n-----RELEVANCE-----\n")
-llama.relavence <- read.csv("java/pror/kappa_mistral_2/reviewer_scores_relevance.csv")
-icc_results <- icc(llama.relavence, model = "twoway",
+mistral2.relavence <- read.csv("java/pror/kappa_mistral_2/reviewer_scores_relevance.csv")
+icc_results_relevance <- icc(mistral2.relavence, model = "twoway",
     type = "agreement", 
     unit = "single")
-print(icc_results)
+print(icc_results_relevance)
 cat("\n-----FLUENCY-----\n")
-llama.fluency <- read.csv("java/pror/kappa_mistral_2/reviewer_scores_fluency.csv")
-icc_results <- icc(llama.fluency, model = "twoway",
+mistral2.fluency <- read.csv("java/pror/kappa_mistral_2/reviewer_scores_fluency.csv")
+icc_results_fluency <- icc(mistral2.fluency, model = "twoway",
     type = "agreement", 
     unit = "single")
-print(icc_results)
+print(icc_results_fluency)
 cat("\n-----CONTEXT UNDERSTANDING-----\n")
-llama.context_understanding <- read.csv("java/pror/kappa_mistral_2/reviewer_scores_context_understanding.csv")
-icc_results <- icc(llama.context_understanding, model = "twoway",
+mistral2.context_understanding <- read.csv("java/pror/kappa_mistral_2/reviewer_scores_context_understanding.csv")
+icc_results_context_undetstanding <- icc(mistral2.context_understanding, model = "twoway",
     type = "agreement", 
     unit = "single")
-print(icc_results)
+print(icc_results_context_undetstanding)
 cat("\n-----COHERENCE-----\n")
-llama.coherence <- read.csv("java/pror/kappa_mistral_2/reviewer_scores_coherence.csv")
-icc_results <- icc(llama.coherence, model = "twoway",
+mistral2.coherence <- read.csv("java/pror/kappa_mistral_2/reviewer_scores_coherence.csv")
+icc_results_coherence <- icc(mistral2.coherence, model = "twoway",
     type = "agreement", 
     unit = "single")
-print(icc_results)
+print(icc_results_coherence)
+
+mistral2.kappa <- c(icc_results_overall_quality$value,icc_results_relevance$value,icc_results_fluency$value,icc_results_context_undetstanding$value,icc_results_coherence$value)
+names(mistral2.kappa) <- c("overall quality","relevance","fluency","context understanding","coherence")
+plot(mistral2.kappa,xaxt = "n",xlab=""); axis(1,1:5,labels = names(mistral2.kappa))
+
 
 
 cat("\n-----------------------------------ZEPHYIR_1-----------------------------------\n")
 cat("\n-----OVERALL QUALITY-----\n")
-llamma.overall_quality <- read.csv("java/pror/kappa_zephyir_1/reviewer_scores_overall_quality.csv")
-icc_results<- icc(llamma.overall_quality, model = "twoway",
+zephyir1.overall_quality <- read.csv("java/pror/kappa_zephyir_1/reviewer_scores_overall_quality.csv")
+icc_results_overall_quality<- icc(zephyir1.overall_quality, model = "twoway",
     type = "agreement", 
     unit = "single")
-print(icc_results)
+print(icc_results_overall_quality)
 cat("\n-----RELEVANCE-----\n")
-llama.relavence <- read.csv("java/pror/kappa_zephyir_1/reviewer_scores_relevance.csv")
-icc_results <- icc(llama.relavence, model = "twoway",
+zephyir1.relavence <- read.csv("java/pror/kappa_zephyir_1/reviewer_scores_relevance.csv")
+icc_results_relevance <- icc(zephyir1.relavence, model = "twoway",
     type = "agreement", 
     unit = "single")
-print(icc_results)
+print(icc_results_relevance)
 cat("\n-----FLUENCY-----\n")
-llama.fluency <- read.csv("java/pror/kappa_zephyir_1/reviewer_scores_fluency.csv")
-icc_results <- icc(llama.fluency, model = "twoway",
+zephyir1.fluency <- read.csv("java/pror/kappa_zephyir_1/reviewer_scores_fluency.csv")
+icc_results_fluency <- icc(zephyir1.fluency, model = "twoway",
     type = "agreement", 
     unit = "single")
-print(icc_results)
+print(icc_results_fluency)
 cat("\n-----CONTEXT UNDERSTANDING-----\n")
-llama.context_understanding <- read.csv("java/pror/kappa_zephyir_1/reviewer_scores_context_understanding.csv")
-icc_results <- icc(llama.context_understanding, model = "twoway",
+zephyir1.context_understanding <- read.csv("java/pror/kappa_zephyir_1/reviewer_scores_context_understanding.csv")
+icc_results_context_undetstanding <- icc(zephyir1.context_understanding, model = "twoway",
     type = "agreement", 
     unit = "single")
-print(icc_results)
+print(icc_results_context_undetstanding)
 cat("\n-----COHERENCE-----\n")
-llama.coherence <- read.csv("java/pror/kappa_zephyir_1/reviewer_scores_coherence.csv")
-icc_results <- icc(llama.coherence, model = "twoway",
+zephyir1.coherence <- read.csv("java/pror/kappa_zephyir_1/reviewer_scores_coherence.csv")
+icc_results_coherence <- icc(zephyir1.coherence, model = "twoway",
     type = "agreement", 
     unit = "single")
-print(icc_results)
+print(icc_results_coherence)
+
+zephyr1.kappa <- c(icc_results_overall_quality$value,icc_results_relevance$value,icc_results_fluency$value,icc_results_context_undetstanding$value,icc_results_coherence$value)
+names(zephyr1.kappa) <- c("overall quality","relevance","fluency","context understanding","coherence")
+plot(zephyr1.kappa,xaxt = "n",xlab=""); axis(1,1:5,labels = names(zephyr1.kappa))
+
+
+
 
 
 cat("\n-----------------------------------ZEPHYIR_2-----------------------------------\n")
 cat("\n-----OVERALL QUALITY-----\n")
-llamma.overall_quality <- read.csv("java/pror/kappa_zephyir_2/reviewer_scores_overall_quality.csv")
-icc_results<- icc(llamma.overall_quality, model = "twoway",
+zephyir2.overall_quality <- read.csv("java/pror/kappa_zephyir_2/reviewer_scores_overall_quality.csv")
+icc_results_overall_quality<- icc(zephyir2.overall_quality, model = "twoway",
     type = "agreement", 
     unit = "single")
-print(icc_results)
+print(icc_results_overall_quality)
 cat("\n-----RELEVANCE-----\n")
-llama.relavence <- read.csv("java/pror/kappa_zephyir_2/reviewer_scores_relevance.csv")
-icc_results <- icc(llama.relavence, model = "twoway",
+zephyir2.relavence <- read.csv("java/pror/kappa_zephyir_2/reviewer_scores_relevance.csv")
+icc_results_relevance <- icc(zephyir2.relavence, model = "twoway",
     type = "agreement", 
     unit = "single")
-print(icc_results)
+print(icc_results_relevance)
 cat("\n-----FLUENCY-----\n")
-llama.fluency <- read.csv("java/pror/kappa_zephyir_2/reviewer_scores_fluency.csv")
-icc_results <- icc(llama.fluency, model = "twoway",
+zephyir2.fluency <- read.csv("java/pror/kappa_zephyir_2/reviewer_scores_fluency.csv")
+icc_results_fluency <- icc(zephyir2.fluency, model = "twoway",
     type = "agreement", 
     unit = "single")
-print(icc_results)
+print(icc_results_fluency)
 cat("\n-----CONTEXT UNDERSTANDING-----\n")
-llama.context_understanding <- read.csv("java/pror/kappa_zephyir_2/reviewer_scores_context_understanding.csv")
-icc_results <- icc(llama.context_understanding, model = "twoway",
+zephyir2.context_understanding <- read.csv("java/pror/kappa_zephyir_2/reviewer_scores_context_understanding.csv")
+icc_results_context_undetstanding <- icc(zephyir2.context_understanding, model = "twoway",
     type = "agreement", 
     unit = "single")
-print(icc_results)
+print(icc_results_context_undetstanding)
 cat("\n-----COHERENCE-----\n")
-llama.coherence <- read.csv("java/pror/kappa_zephyir_2/reviewer_scores_coherence.csv")
-icc_results <- icc(llama.coherence, model = "twoway",
+zephyir2.coherence <- read.csv("java/pror/kappa_zephyir_2/reviewer_scores_coherence.csv")
+icc_results_coherence <- icc(zephyir2.coherence, model = "twoway",
     type = "agreement", 
     unit = "single")
-print(icc_results)
+print(icc_results_coherence)
+
+
+zephyr2.kappa <- c(icc_results_overall_quality$value,icc_results_relevance$value,icc_results_fluency$value,icc_results_context_undetstanding$value,icc_results_coherence$value)
+names(zephyr2.kappa) <- c("overall quality","relevance","fluency","context understanding","coherence")
+plot(zephyr2.kappa,xaxt = "n",xlab=""); axis(1,1:5,labels = names(zephyr2.kappa))
+
 
 
 ```
-```{r}
-## Not run: 
-# Rating scale model, ICC plot for all items
-rsm.res <- RSM(rsmdat)
-thresholds(rsm.res)
-plotICC(rsm.res)
 
-# now items 1 to 4 in one figure without legends
-plotICC(rsm.res, item.subset = 1:4, mplot = TRUE, legpos = FALSE)
-
-# Rasch model for items 1 to 8 from raschdat1
-# empirical ICCs displaying relative frequencies (default settings)
-rm8.res <- RM(raschdat1[,1:8])
-plotICC(rm8.res, empICC=list("raw"))
-
-# the same but using different plotting styles
-plotICC(rm8.res, empICC=list("raw",type="b",col="blue",lty="dotted"))
-
-# kernel-smoothed empirical ICCs using bandwidth = 2
-plotICC(rm8.res, empICC = list("kernel",smooth=3))
-
-# raw empirical ICCs with confidence intervals
-# displaying only items 2,3,7,8
-plotICC(rm8.res, item.subset=c(2,3,7,8), empICC=list("raw"), empCI=list())
-
-# Joint ICC plot for items 2, 6, 8, and 15 for a Rasch model
-res <- RM(raschdat1)
-plotjointICC(res, item.subset = c(2,6,8,15), legpos = "left")
-
-## End(Not run)
-```
 
