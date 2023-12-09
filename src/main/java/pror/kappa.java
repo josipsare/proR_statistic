@@ -14,7 +14,7 @@ public class kappa {
 
     public static void main(String[] args) throws IOException, ParseException {
         llama();
-        //mistral_1();
+        mistral_1();
         mistral_2();
         zephyr_1();
         zephyr_2();
