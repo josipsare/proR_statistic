@@ -1139,11 +1139,11 @@
     "answer": "Yes, there is a support system called Ticketing system available in Edgar. If you have any doubts or questions related to tests in Edgar, you can ask them through this system.",
     "time": 22.18,
     "evaluation": {
-      "bleu_score": 0.14652257845113756,
+      "bleu_score": 0.18842975899221737,
       "rouge_score": {
-        "precision": 0.3870967741935484,
-        "recall": 0.375,
-        "f1": 0.38095238095238093
+        "precision": 0.28225806451612906,
+        "recall": 0.2752016129032258,
+        "f1": 0.2781759211441038
       },
       "diversity": 1.0,
       "human_eval": {
@@ -1181,11 +1181,11 @@
     "answer": "The support system in Edgar is called Ticketing system, which allows students to ask related questions with specific tasks. This system facilitates communication between students and teaching staff regarding tests in Edgar, such as preparation for labs, mid-term exams, final exams, and other related issues. If you have any doubts or concerns about the accuracy of a solution or something else, you can use this system to ask questions.",
     "time": 40.26,
     "evaluation": {
-      "bleu_score": 1.2059865154513934e-155,
+      "bleu_score": 1.7548699849497975e-155,
       "rouge_score": {
-        "precision": 0.22857142857142856,
-        "recall": 0.09876543209876543,
-        "f1": 0.13793103448275862
+        "precision": 0.20571428571428568,
+        "recall": 0.09724482608580551,
+        "f1": 0.1319877455041486
       },
       "diversity": 0.9852941176470589,
       "human_eval": {
@@ -1223,11 +1223,11 @@
     "answer": "Yes, asking for solutions with the ticketing system is allowed as long as it's related to a specific task or doubt about the accuracy of the solution.",
     "time": 20.62,
     "evaluation": {
-      "bleu_score": 2.1856718250793204e-78,
+      "bleu_score": 2.5432866559253216e-78,
       "rouge_score": {
-        "precision": 0.17857142857142858,
-        "recall": 0.35714285714285715,
-        "f1": 0.2380952380952381
+        "precision": 0.16964285714285715,
+        "recall": 0.325635638870933,
+        "f1": 0.2225666027424394
       },
       "diversity": 1.0,
       "human_eval": {
@@ -1265,11 +1265,11 @@
     "answer": "The official course web-address is https://ferhr.onmicrosoft.com/sites/UPROlabosi/.",
     "time": 37.59,
     "evaluation": {
-      "bleu_score": 1.384292958842266e-231,
+      "bleu_score": 1.646211035903463e-231,
       "rouge_score": {
-        "precision": 0.4166666666666667,
-        "recall": 0.38461538461538464,
-        "f1": 0.4
+        "precision": 0.375,
+        "recall": 0.268229869545659,
+        "f1": 0.3103494623655914
       },
       "diversity": 1.0,
       "human_eval": {
@@ -1307,11 +1307,11 @@
     "answer": "A lecture cycle refers to a set of lectures that are delivered over a specific period, typically covering a particular topic or subject matter. In this context, there are two cycles of lectures scheduled for October 2 - November 15, 2023, and December 4, 2023 - January 24, 2024.",
     "time": 36.35,
     "evaluation": {
-      "bleu_score": 0.08073097285821373,
+      "bleu_score": 0.14812542233406556,
       "rouge_score": {
-        "precision": 0.19148936170212766,
-        "recall": 0.24324324324324326,
-        "f1": 0.21428571428571427
+        "precision": 0.17553191489361702,
+        "recall": 0.21332277253329884,
+        "f1": 0.192420814479638
       },
       "diversity": 0.9791666666666666,
       "human_eval": {
@@ -1351,9 +1351,9 @@
     "evaluation": {
       "bleu_score": 1.0,
       "rouge_score": {
-        "precision": 1.0,
-        "recall": 1.0,
-        "f1": 1.0
+        "precision": 0.6428571428571428,
+        "recall": 0.6029411764705882,
+        "f1": 0.6212365591397849
       },
       "diversity": 1.0,
       "human_eval": {
@@ -1393,9 +1393,9 @@
     "evaluation": {
       "bleu_score": 0.2676032275663791,
       "rouge_score": {
-        "precision": 0.4666666666666667,
-        "recall": 0.7777777777777778,
-        "f1": 0.5833333333333334
+        "precision": 0.31666666666666665,
+        "recall": 0.4964646464646465,
+        "f1": 0.38608974358974363
       },
       "diversity": 1.0,
       "human_eval": {
@@ -1433,11 +1433,11 @@
     "answer": "Yes, there are prerequisites for enrollment into subject Introduction to programming. The students must have completed the subject Algebra and logic or have equivalent knowledge in order to enroll in this course.",
     "time": 30.32,
     "evaluation": {
-      "bleu_score": 5.1413397822534795e-155,
+      "bleu_score": 6.5105836445193885e-155,
       "rouge_score": {
-        "precision": 0.28125,
-        "recall": 0.6923076923076923,
-        "f1": 0.4
+        "precision": 0.21875,
+        "recall": 0.5576923076923077,
+        "f1": 0.31414141414141417
       },
       "diversity": 1.0,
       "human_eval": {
@@ -1475,11 +1475,11 @@
     "answer": "The course requires 140 hours of independent work, which is approximately 10 hours per week in addition to attending lectures and laboratory exercises.",
     "time": 32.48,
     "evaluation": {
-      "bleu_score": 3.031597885818954e-78,
+      "bleu_score": 0.3666340989897011,
       "rouge_score": {
-        "precision": 0.4782608695652174,
-        "recall": 0.4583333333333333,
-        "f1": 0.4680851063829787
+        "precision": 0.40217391304347827,
+        "recall": 0.4191287878787879,
+        "f1": 0.4100445324096982
       },
       "diversity": 1.0,
       "human_eval": {
@@ -3029,11 +3029,11 @@
     "answer": "Yes, you can print out an official reminder and bring it with you.",
     "time": 28.06,
     "evaluation": {
-      "bleu_score": 0,
+      "bleu_score": 9.342086335797231e-155,
       "rouge_score": {
-        "precision": 0.0,
-        "recall": 0.0,
-        "f1": 0.0
+        "precision": 0.24615384615384617,
+        "recall": 0.30382395382395383,
+        "f1": 0.2593707105902228
       },
       "diversity": 1.0,
       "human_eval": {
@@ -3071,11 +3071,11 @@
     "answer": "- Group P1: Prof. Ph.D. Igor Mekterovi\u0107 and Izv. prof. Ph.D. Ljiljana Brki\u0107, Mon. 11-13 / Wednesday 10-12 in hall D1.\n- Group P2: Assoc. prof. Ph.D. Marina Bagi\u0107 Babac and Prof. Ph.D. Gordan Gledec, Mon. 11-13 / Wednesday 10-12 in hall D2 D2 D2 D2 D2 D2 D2 D2 D2 D2 D2 D2 D2 D2 D2 D2 D2 D2 D2 D2 D2 D2 D2 D2. D2 D2 D2 D2 D2 D2 D2 D2 D2 D2 D2 D2 D2 D2 D2 D2 D2 D2 D2 D2 D2 D2 D2 D2 D2 D2 D2 D2 D2 D2 D2 D2. D2 D2 D2 D2 D2 D2 D2 D2 D2 D2 D2 D2 D2 D2 D2 D2 D",
     "time": 83.42,
     "evaluation": {
-      "bleu_score": 0,
+      "bleu_score": 1.3420826495795114e-78,
       "rouge_score": {
-        "precision": 0.0,
-        "recall": 0.0,
-        "f1": 0.0
+        "precision": 0.16596638655462184,
+        "recall": 0.2371202252125555,
+        "f1": 0.18765065193051872
       },
       "diversity": 0.32456140350877194,
       "human_eval": {
@@ -3113,11 +3113,11 @@
     "answer": "Yes, Boris Vrdoljak gives lectures to group P6 in hall B3 on Mondays from 13-15 and Wednesdays from 14-16.",
     "time": 45.42,
     "evaluation": {
-      "bleu_score": 0,
+      "bleu_score": 3.808974133174533e-78,
       "rouge_score": {
-        "precision": 0.0,
-        "recall": 0.0,
-        "f1": 0.0
+        "precision": 0.3333333333333333,
+        "recall": 0.547008547008547,
+        "f1": 0.41372549019607846
       },
       "diversity": 1.0,
       "human_eval": {
@@ -3197,11 +3197,11 @@
     "answer": "Your email should include [UPRO] at the beginning of the title (Subject) to indicate that it is related to UPROlabosi@ferhr.onmicrosoft.com. For example, if you have a question for your lecturer regarding an assignment, your subject line could be \"[UPRO] Assignment Question\". This will help ensure that your email is properly categorized and addressed by the appropriate person.",
     "time": 35.84,
     "evaluation": {
-      "bleu_score": 0,
+      "bleu_score": 2.045029072567851e-78,
       "rouge_score": {
-        "precision": 0.0,
-        "recall": 0.0,
-        "f1": 0.0
+        "precision": 0.13666666666666666,
+        "recall": 0.3553463257643483,
+        "f1": 0.1850459541085657
       },
       "diversity": 1.0,
       "human_eval": {
@@ -3239,11 +3239,11 @@
     "answer": "The course official email address for communication with lecturers, assistants, and administration is @fer.hr.",
     "time": 24.28,
     "evaluation": {
-      "bleu_score": 0,
+      "bleu_score": 4.63332339029038e-155,
       "rouge_score": {
-        "precision": 0.0,
-        "recall": 0.0,
-        "f1": 0.0
+        "precision": 0.15,
+        "recall": 0.17564745196324144,
+        "f1": 0.15604575163398693
       },
       "diversity": 1.0,
       "human_eval": {
@@ -3281,11 +3281,11 @@
     "answer": "The link to the official guide for students is https://www.fer.unizg.hr/_download/repository/UproVodicZaStudente.pdf",
     "time": 49.43,
     "evaluation": {
-      "bleu_score": 0,
+      "bleu_score": 6.197223199276648e-155,
       "rouge_score": {
-        "precision": 0.0,
-        "recall": 0.0,
-        "f1": 0.0
+        "precision": 0.5972222222222222,
+        "recall": 0.8166118421052632,
+        "f1": 0.6770800211976683
       },
       "diversity": 1.0,
       "human_eval": {
@@ -3323,11 +3323,11 @@
     "answer": "No, there is no joint points threshold for the Meduispit and Zavrsni Ispit exams. Each exam has its own point threshold. The Meduispit carries a maximum of 30 points and has no point threshold. The final exam carries a maximum of 40 points and has a point threshold of 16 points.",
     "time": 35.92,
     "evaluation": {
-      "bleu_score": 0,
+      "bleu_score": 0.12936981168384865,
       "rouge_score": {
-        "precision": 0.0,
-        "recall": 0.0,
-        "f1": 0.0
+        "precision": 0.12549019607843137,
+        "recall": 0.5534873949579832,
+        "f1": 0.20165174877946251
       },
       "diversity": 0.86,
       "human_eval": {
@@ -3367,9 +3367,9 @@
     "evaluation": {
       "bleu_score": 0,
       "rouge_score": {
-        "precision": 0.0,
-        "recall": 0.0,
-        "f1": 0.0
+        "precision": 0.00641025641025641,
+        "recall": 0.027777777777777776,
+        "f1": 0.010416666666666666
       },
       "diversity": 0.9411764705882353,
       "human_eval": {

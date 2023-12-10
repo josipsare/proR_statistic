@@ -1139,11 +1139,11 @@
     "answer": "Yes, there is a support system in Edgar called Ticketing system.",
     "time": 18.62,
     "evaluation": {
-      "bleu_score": 8.828088305864645e-79,
+      "bleu_score": 1.3130761755791193e-78,
       "rouge_score": {
-        "precision": 0.5454545454545454,
-        "recall": 0.1875,
-        "f1": 0.27906976744186046
+        "precision": 0.4318181818181819,
+        "recall": 0.15068964413722477,
+        "f1": 0.2231264941556876
       },
       "diversity": 1.0,
       "human_eval": {
@@ -1181,11 +1181,11 @@
     "answer": "The support system in Edgar is called Ticketing system. It allows students to ask questions related to tests in Edgar, such as doubts about the accuracy of solutions or something else. The student can write a question with a specific task. If the student does not know how to use the system, they can refer to the instructions provided by Edgar.",
     "time": 39.24,
     "evaluation": {
-      "bleu_score": 3.8949546488252015e-79,
+      "bleu_score": 5.777548362813038e-79,
       "rouge_score": {
-        "precision": 0.29508196721311475,
-        "recall": 0.1111111111111111,
-        "f1": 0.1614349775784753
+        "precision": 0.27540983606557373,
+        "recall": 0.11356221899110563,
+        "f1": 0.16073068620849823
       },
       "diversity": 1.0,
       "human_eval": {
@@ -1223,11 +1223,11 @@
     "answer": "Yes, asking for solutions with the ticketing system is ok.",
     "time": 18.41,
     "evaluation": {
-      "bleu_score": 2.6580165928717663e-78,
+      "bleu_score": 3.2509474596879773e-78,
       "rouge_score": {
-        "precision": 0.5,
-        "recall": 0.35714285714285715,
-        "f1": 0.41666666666666663
+        "precision": 0.35000000000000003,
+        "recall": 0.24109566903684554,
+        "f1": 0.28493961352657005
       },
       "diversity": 1.0,
       "human_eval": {
@@ -1265,11 +1265,11 @@
     "answer": "The official course web-address is https://ferhr.onmicrosoft.com/en/upro/.",
     "time": 39.47,
     "evaluation": {
-      "bleu_score": 1.384292958842266e-231,
+      "bleu_score": 1.646211035903463e-231,
       "rouge_score": {
-        "precision": 0.4166666666666667,
-        "recall": 0.38461538461538464,
-        "f1": 0.4
+        "precision": 0.375,
+        "recall": 0.268229869545659,
+        "f1": 0.3103494623655914
       },
       "diversity": 1.0,
       "human_eval": {
@@ -1307,11 +1307,11 @@
     "answer": "A lecture cycle refers to the two cycles of lectures that take place during a course, with intermediate exams held after the first cycle and final exams held after the second cycle.",
     "time": 31.51,
     "evaluation": {
-      "bleu_score": 0.09288146728846444,
+      "bleu_score": 0.26904333162453675,
       "rouge_score": {
-        "precision": 0.4375,
-        "recall": 0.3783783783783784,
-        "f1": 0.40579710144927533
+        "precision": 0.484375,
+        "recall": 0.396927130479762,
+        "f1": 0.4358477716029203
       },
       "diversity": 0.9032258064516129,
       "human_eval": {
@@ -1351,9 +1351,9 @@
     "evaluation": {
       "bleu_score": 1.0,
       "rouge_score": {
-        "precision": 1.0,
-        "recall": 1.0,
-        "f1": 1.0
+        "precision": 0.6428571428571428,
+        "recall": 0.6029411764705882,
+        "f1": 0.6212365591397849
       },
       "diversity": 1.0,
       "human_eval": {
@@ -1391,11 +1391,11 @@
     "answer": "The duration of the second cycle in weeks is 2/7ths of a week, or approximately 1.43 hours.",
     "time": 31.07,
     "evaluation": {
-      "bleu_score": 0.2928298013714697,
+      "bleu_score": 0.30277029197532096,
       "rouge_score": {
-        "precision": 0.42105263157894735,
-        "recall": 0.8888888888888888,
-        "f1": 0.5714285714285714
+        "precision": 0.28947368421052627,
+        "recall": 0.577020202020202,
+        "f1": 0.38501642036124795
       },
       "diversity": 1.0,
       "human_eval": {
@@ -1433,11 +1433,11 @@
     "answer": "No, there are no prerequisites for enrollment into subject Introduction to programming.",
     "time": 26.78,
     "evaluation": {
-      "bleu_score": 8.339800318341854e-155,
+      "bleu_score": 1.046685547397662e-154,
       "rouge_score": {
-        "precision": 0.75,
-        "recall": 0.6923076923076923,
-        "f1": 0.7199999999999999
+        "precision": 0.5416666666666667,
+        "recall": 0.516025641025641,
+        "f1": 0.5283333333333333
       },
       "diversity": 1.0,
       "human_eval": {
@@ -1475,11 +1475,11 @@
     "answer": "The student is expected to complete 140 hours of independent work in this course.",
     "time": 30.58,
     "evaluation": {
-      "bleu_score": 0.23701280428049598,
+      "bleu_score": 0.4064319206769607,
       "rouge_score": {
-        "precision": 0.8571428571428571,
-        "recall": 0.5,
-        "f1": 0.631578947368421
+        "precision": 0.625,
+        "recall": 0.3954545454545455,
+        "f1": 0.48387512899896795
       },
       "diversity": 1.0,
       "human_eval": {
@@ -3029,11 +3029,11 @@
     "answer": "Yes, you can print out an official reminder and bring it with you.",
     "time": 29.86,
     "evaluation": {
-      "bleu_score": 0,
+      "bleu_score": 9.342086335797231e-155,
       "rouge_score": {
-        "precision": 0.0,
-        "recall": 0.0,
-        "f1": 0.0
+        "precision": 0.24615384615384617,
+        "recall": 0.30382395382395383,
+        "f1": 0.2593707105902228
       },
       "diversity": 1.0,
       "human_eval": {
@@ -3071,11 +3071,11 @@
     "answer": "Prof. Ph.D. Igor Mekterovi\u0107 and Izv. prof. Ph.D. Ljiljana Brki\u0107 - Mon. 11-13 / Wednesday 10-12\nAssoc. prof. Ph.D. Marina Bagi\u0107 Babac and Prof. Ph.D. Gordan Gledec - Mon. 11-13 / Wednesday 10-12\nAssoc. Ph.D. Marko Horvat - Mon. / Wednesday 8-Wedited by request time slot, Wednesday 8-Wed",
     "time": 67.94,
     "evaluation": {
-      "bleu_score": 0,
+      "bleu_score": 1.4338866164235056e-78,
       "rouge_score": {
-        "precision": 0.0,
-        "recall": 0.0,
-        "f1": 0.0
+        "precision": 0.4528301886792453,
+        "recall": 0.25765224299664946,
+        "f1": 0.3282840418189719
       },
       "diversity": 0.7872340425531915,
       "human_eval": {
@@ -3113,11 +3113,11 @@
     "answer": "Boris Vrdoljak gives lectures in hall B3 on Mon. 13-15 / Wednesday 14-16.",
     "time": 46.41,
     "evaluation": {
-      "bleu_score": 0,
+      "bleu_score": 4.513300825451574e-78,
       "rouge_score": {
-        "precision": 0.0,
-        "recall": 0.0,
-        "f1": 0.0
+        "precision": 0.46428571428571425,
+        "recall": 0.5085470085470085,
+        "f1": 0.4847020933977456
       },
       "diversity": 1.0,
       "human_eval": {
@@ -3197,11 +3197,11 @@
     "answer": "Your email should include the following information:\n1. The subject line should be [UPRO] followed by the title of your question.\n2. In the body of the email, you should introduce yourself as a student of the course and specify which lecturer or assistant you are addressing.\n3. You should clearly state your question and provide any necessary context or background information.\n4. If you have any attachments, such as lab reports or exercise solutions, you should include them in the email.\n5. Finally, you should sign off with your name and student ID number.",
     "time": 46.32,
     "evaluation": {
-      "bleu_score": 0,
+      "bleu_score": 6.001548434302203e-155,
       "rouge_score": {
-        "precision": 0.0,
-        "recall": 0.0,
-        "f1": 0.0
+        "precision": 0.09052631578947369,
+        "recall": 0.3822907205435365,
+        "f1": 0.13836506040346044
       },
       "diversity": 0.9574468085106383,
       "human_eval": {
@@ -3239,11 +3239,11 @@
     "answer": "The course official email address is UPROlabosi@ferhr.onmicrosoft.com.",
     "time": 25.23,
     "evaluation": {
-      "bleu_score": 0,
+      "bleu_score": 9.85444998995587e-155,
       "rouge_score": {
-        "precision": 0.0,
-        "recall": 0.0,
-        "f1": 0.0
+        "precision": 0.625,
+        "recall": 0.6370091896407686,
+        "f1": 0.5719596544196978
       },
       "diversity": 1.0,
       "human_eval": {
@@ -3283,9 +3283,9 @@
     "evaluation": {
       "bleu_score": 0,
       "rouge_score": {
-        "precision": 0.0,
-        "recall": 0.0,
-        "f1": 0.0
+        "precision": 1.0,
+        "recall": 0.696546052631579,
+        "f1": 0.8049999999999999
       },
       "diversity": 0.0,
       "human_eval": {
@@ -3323,11 +3323,11 @@
     "answer": "No, there is no joint points threshold for the Meduispit and Zavrsni ispit exams. Each exam has its own point threshold and it is important to achieve a passing grade in each exam individually.",
     "time": 32.28,
     "evaluation": {
-      "bleu_score": 0,
+      "bleu_score": 0.20791685699709705,
       "rouge_score": {
-        "precision": 0.0,
-        "recall": 0.0,
-        "f1": 0.0
+        "precision": 0.19411764705882356,
+        "recall": 0.5652521008403362,
+        "f1": 0.2836632967854312
       },
       "diversity": 1.0,
       "human_eval": {
@@ -3367,9 +3367,9 @@
     "evaluation": {
       "bleu_score": 0,
       "rouge_score": {
-        "precision": 0.0,
-        "recall": 0.0,
-        "f1": 0.0
+        "precision": 0.025,
+        "recall": 0.027777777777777776,
+        "f1": 0.026315789473684213
       },
       "diversity": 1.0,
       "human_eval": {
