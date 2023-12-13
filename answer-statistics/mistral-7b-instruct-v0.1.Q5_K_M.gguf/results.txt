@@ -11,19 +11,34 @@ Standardna devijacija broja rijeci: 35.124192299440715
 Srednja vrijednost trajanja: 34.05152173913043, 
 Standardna devijacija trajanja: 11.623008846285533
 
+Srednja vrijednost trajanja po broju rijeci: 2.5828377930664717, 
+Standardna devijacija trajanja po broju rijeci: 6.245499720699622
+
 -----------------------------------
 
 Kolmogorov-Smirnovljev Test p-vrijednosti:
 Duljine odgovora: 0.0
 Broja rijeci: 1.4073499022781716e-135
 Trajanja: 0.0
+Trajanja po broju rijeci: 5.828363522840248e-35
 
 Shapiro-Wilk Test p-vrijednosti:
 Duljine odgovora: 7.451827488402785e-10
 Broja rijeci: 4.033219092036688e-09
 Trajanja: 0.09052171558141708
+Trajanja po broju rijeci: 7.8461446691772e-19
 
 -----------------------------------
 
 Pearsonov koeficjent koleracije za duljinu odgovora i trajanje: 0.6410327725745841
 P-vrijednost koleracije: 5.8606704192338804e-12
+
+Pearsonov koeficjent koleracije za duljinu odgovora i trajanje:
+Kratki odgovori: 0.20501640373210245
+Srednji odgovori: 0.06805833135609853
+Dugi odgovori: 0.6762148195485798
+
+P-vrijednost koleracije: 5.8606704192338804e-12
+Kratki odgovori: 0.2685628796823447
+Srednji odgovori: 0.720832805181003
+Dugi odgovori: 2.9721267653284385e-05

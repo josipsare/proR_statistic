@@ -1,0 +1,19 @@
+mistral-7b-openorca.Q4_0.gguf
+
+-----------------------------------
+
+Srednja vrijednost: 0.1020662768157725,
+Standardna devijacija duljine odgovora: 0.18899887205270902
+
+-----------------------------------
+
+Kolmogorov-Smirnovljev Test p-vrijednosti: 8.576617223313775e-22
+Shapiro-Wilk Test p-vrijednosti: 3.0284575438773234e-14
+-----------------------------------
+
+Pearsonov koeficjent koleracije za ocjenu i duljinu: -0.19669220261801876
+P-vrijednost koleracije: 0.0630921862121157
+
+Pearsonov koeficjent koleracije za ocjenu i trajanje: -0.1945703752785519
+P-vrijednost koleracije: 0.0630921862121157
+

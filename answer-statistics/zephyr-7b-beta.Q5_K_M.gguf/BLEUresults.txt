@@ -1,0 +1,19 @@
+zephyr-7b-beta.Q5_K_M.gguf
+
+-----------------------------------
+
+Srednja vrijednost: 0.07893688764515394,
+Standardna devijacija duljine odgovora: 0.17243692847653358
+
+-----------------------------------
+
+Kolmogorov-Smirnovljev Test p-vrijednosti: 8.576617223313775e-22
+Shapiro-Wilk Test p-vrijednosti: 1.710511039179543e-16
+-----------------------------------
+
+Pearsonov koeficjent koleracije za ocjenu i duljinu: -0.25006990070930246
+P-vrijednost koleracije: 0.002436984799528158
+
+Pearsonov koeficjent koleracije za ocjenu i trajanje: -0.3123343393055095
+P-vrijednost koleracije: 0.002436984799528158
+

@@ -1,0 +1,19 @@
+mistral-7b-instruct-v0.1.Q5_K_M.gguf
+
+-----------------------------------
+
+Srednja vrijednost: 0.10247966734137817,
+Standardna devijacija duljine odgovora: 0.20426754345508996
+
+-----------------------------------
+
+Kolmogorov-Smirnovljev Test p-vrijednosti: 8.576617223313775e-22
+Shapiro-Wilk Test p-vrijednosti: 4.615931880567201e-15
+-----------------------------------
+
+Pearsonov koeficjent koleracije za ocjenu i duljinu: -0.19487031909583483
+P-vrijednost koleracije: 0.021048769627801885
+
+Pearsonov koeficjent koleracije za ocjenu i trajanje: -0.24028258236254682
+P-vrijednost koleracije: 0.021048769627801885
+

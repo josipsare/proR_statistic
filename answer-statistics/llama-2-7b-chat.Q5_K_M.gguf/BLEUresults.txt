@@ -1,0 +1,19 @@
+llama-2-7b-chat.Q5_K_M.gguf
+
+-----------------------------------
+
+Srednja vrijednost: 0.08877587146516752,
+Standardna devijacija duljine odgovora: 0.1888930758114106
+
+-----------------------------------
+
+Kolmogorov-Smirnovljev Test p-vrijednosti: 8.576617223313775e-22
+Shapiro-Wilk Test p-vrijednosti: 1.7363904368170036e-15
+-----------------------------------
+
+Pearsonov koeficjent koleracije za ocjenu i duljinu: -0.1924000832730382
+P-vrijednost koleracije: 0.045255844203381836
+
+Pearsonov koeficjent koleracije za ocjenu i trajanje: -0.20929448291146202
+P-vrijednost koleracije: 0.045255844203381836
+
